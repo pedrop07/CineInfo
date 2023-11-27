@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "standard",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "prettier/prettier": ["error", {
+      "printWidth": 120,
+      "tabWidth": 2,
+      "singleQuote": true,
+      "trailingComma": "all",
+      "arrowParens": "always",
+      "semi": true,
+      "endOfLine": "auto"
+    }],
+    "no-unused-vars": [
+      "error",
+      {
+        "args": "after-used",
+        "caughtErrors": "none",
+        "ignoreRestSiblings": true,
+        "vars": "all"
+      }
+    ],
+    "prefer-const": "error",
+    "react-hooks/exhaustive-deps": "error"
+  }
+}
