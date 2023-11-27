@@ -34,7 +34,7 @@ export default {
     },
     extra: {
       eas: {
-        projectId: "edfb178e-06e1-409d-a045-4839a35e29d3"
+        projectId: "dc2bd1cf-033c-4485-9bc1-b3e6fd4539b6"
       },
       apiUrl: process.env.API_URL ?? 'https://api.themoviedb.org/3',
       apiKey: apiKey,

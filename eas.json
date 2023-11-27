@@ -10,6 +10,7 @@
         "resourceClass": "m-medium"
       },
       "env": {
+        "API_KEY": "9298cdd805c06dccd87677331b287727",
         "API_URL": "https://api.themoviedb.org/3"
       }
     },
@@ -27,6 +28,7 @@
         "resourceClass": "m-medium"
       },
       "env": {
+        "API_KEY": "9298cdd805c06dccd87677331b287727",
         "API_URL": "https://api.themoviedb.org/3"
       }
     }
