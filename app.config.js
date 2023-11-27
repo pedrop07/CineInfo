@@ -8,11 +8,9 @@ export default {
     slug: "CineInfo",
     version: "1.0.0",
     orientation: "portrait",
-    // TODO: TROCAR ICONE DO APP
     icon: "./assets/icon.png",
     userInterfaceStyle: "light",
     splash: {
-      // TODO: TROCAR IMAGEM AO ABRIR O APP
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
@@ -26,7 +24,6 @@ export default {
     },
     android: {
       adaptiveIcon: {
-        // TODO: TROCAR IMAGEM AO ABRIR O APP (no android é diferente)
         foregroundImage: "./assets/adaptive-icon.png",
         backgroundColor: "#ffffff"
       },
